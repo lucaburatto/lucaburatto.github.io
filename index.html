@@ -13,21 +13,6 @@
     <meta property="og:url" content="https://lucaburatto.github.io/" />
     <meta property="og:image" content="https://lucaburatto.github.io/images/luca-buratto.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-  <!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luca Buratto | Sito personale</title>
-    <meta name="description" content="Sito personale di Luca Buratto: contabile e statistico con interessi in analisi dati, automazione, finanza personale, arrampicata, scacchi, libri, film e serie." />
-    <link rel="canonical" href="https://lucaburatto.github.io/" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="Luca Buratto | Contabile e statistico" />
-    <meta property="og:description" content="Sito personale di Luca Buratto: contabilità, statistica, analisi dati, progetti digitali, finanza personale e passioni." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lucaburatto.github.io/" />
-    <meta property="og:image" content="https://lucaburatto.github.io/images/luca-buratto.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
     <style>
         :root {
             --navy-deep: #0a192f;
@@ -113,6 +98,7 @@
 
         .hero {
             padding: 60px 0 40px;
+            scroll-margin-top: 100px;
         }
 
         .hero-box {
@@ -251,45 +237,88 @@
             <div class="brand">Luca Buratto</div>
             <nav>
                 <ul>
-                    <li><a href="#profilo">Profilo</a></li>
-                    <li><a href="#interessi">Interessi</a></li>
+                    <li><a href="#about">Chi sono</a></li>
+                    <li><a href="#skills">Competenze</a></li>
+                    <li><a href="#progetti">Progetti</a></li>
+                    <li><a href="#hobbies">Hobby</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main class="wrap">
-        <section class="hero" id="profilo">
+        <section class="hero" id="about">
             <div class="hero-box">
-                <img src="images/luca-buratto.jpg" alt="Luca Buratto" class="avatar" />
+                <img src="images/luca-buratto.jpg" alt="Foto profilo di Luca Buratto, contabile e statistico" class="avatar">
                 <div>
                     <h1>Luca Buratto</h1>
-                    <div class="subtitle">Contabile & Statistico</div>
-                    <p>Mi occupo di contabilità, analisi dati e automazione dei processi. Appassionato di finanza personale e progetti digitali.</p>
+                    <p class="subtitle">Contabile e statistico</p>
+                    <p>Statistico per formazione, climber per passione, ottimizzatore per vocazione.</p>
                     <div class="hero-links">
-                        <a href="mailto:tuanoti@email.com" class="btn primary">Contattami</a>
-                        <a href="#interessi" class="btn">Scopri di più</a>
+                        <a class="btn primary" href="#progetti">Vedi progetti</a>
+                        <a class="btn" href="#hobbies">I miei Hobby</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="interessi" class="card">
-            <h2>Passioni & Interessi</h2>
+        <section id="skills" class="card">
+            <h2>Competenze</h2>
             <ul class="list">
                 <li>
-                    <span class="item-title">Analisi Dati & Finanza</span>
-                    <p class="muted">Sviluppo di modelli statistici e ottimizzazione della finanza personale.</p>
+                    <span class="item-title">Contabilità & Finanza</span>
+                    <p class="muted">Gestione flussi contabili, bilanci e ottimizzazione delle risorse finanziarie personali e aziendali.</p>
                 </li>
                 <li>
-                    <span class="item-title">Sport & Mente</span>
-                    <p class="muted">Arrampicata e gioco degli scacchi.</p>
+                    <span class="item-title">Statistica & Analisi Dati</span>
+                    <p class="muted">Elaborazione dati, estrazione di insight strategici e creazione di modelli predittivi.</p>
                 </li>
                 <li>
-                    <span class="item-title">Tempo Libero</span>
-                    <p class="muted">Lettura, film e serie TV.</p>
+                    <span class="item-title">Automazione dei Processi</span>
+                    <p class="muted">Sviluppo di script e flussi di lavoro digitali per ridurre i tempi di inserimento e azzerare gli errori manuali.</p>
                 </li>
             </ul>
+        </section>
+
+        <section id="progetti" class="card">
+            <h2>Progetti</h2>
+            <ul class="list">
+                <li>
+                    <span class="item-title">Modelli di Finanza Personale</span>
+                    <p class="muted">Creazione di fogli di calcolo avanzati e dashboard interattive per il tracciamento dei patrimoni e pianificazione finanziaria.</p>
+                </li>
+                <li>
+                    <span class="item-title">Automazione Flussi Contabili</span>
+                    <p class="muted">Script per l'estrazione e la quadratura automatica dei dati di fatturazione.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="hobbies" class="card">
+            <h2>Hobby & Passioni</h2>
+            <ul class="list">
+                <li>
+                    <span class="item-title">Arrampicata (Climbing)</span>
+                    <p class="muted">Disciplina, focus e superamento dei propri limiti, sia sui blocchi che in falesia.</p>
+                </li>
+                <li>
+                    <span class="item-title">Scacchi</span>
+                    <p class="muted">Analisi pura, strategia a lungo termine e calcolo delle varianti.</p>
+                </li>
+                <li>
+                    <span class="item-title">Cultura & Intrattenimento</span>
+                    <p class="muted">Grande lettore di saggistica e appassionato di cinema e serie TV di qualità.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contatti" class="card">
+            <h2>Contatti</h2>
+            <p>Sei interessato a collaborare a un progetto di analisi dati, automazione contabile o vuoi semplicemente scambiare due chiacchiere?</p>
+            <div class="hero-links">
+                <a href="mailto:iltuoiindirizzo@email.com" class="btn primary">Invia un'E-mail</a>
+            </div>
         </section>
     </main>
 
